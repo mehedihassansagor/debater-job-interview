@@ -229,9 +229,29 @@
 // console.log(result)
 
 
-var number = 1;
-var facto = 1;
-for(var i = 1, j = 0; i <= number;i++) {
-  facto = facto*i
-  console.log(i,facto)
-}
+// var number = 1;
+// var facto = 1;
+// for(var i = 1, j = 0; i <= number;i++) {
+//   facto = facto*i
+//   console.log(i,facto)
+// }
+
+// prime number 
+
+// function prime(number) {
+
+// var count = 0;
+// for (let i = 2; i < number; i++) {
+//   if (number % i == 0) {
+//     count++;
+//     break;
+//   }
+// }
+// if (count == 0) {
+//   console.log("prime number")
+// }
+// else
+// console.log("not prime number")
+
+// }
+// var findPrime = prime(78)
