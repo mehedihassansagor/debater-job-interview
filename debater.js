@@ -227,3 +227,11 @@
 
 // var result = reverseStrings.join("")
 // console.log(result)
+
+
+var number = 1;
+var facto = 1;
+for(var i = 1, j = 0; i <= number;i++) {
+  facto = facto*i
+  console.log(i,facto)
+}
