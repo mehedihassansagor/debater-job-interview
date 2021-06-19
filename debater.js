@@ -255,3 +255,107 @@
 
 // }
 // var findPrime = prime(78)
+
+// var number = [1,3,4,5]
+// number.push(8)
+// console.log(number)
+
+// let county = [1,3,4,5,4,1,2,3]
+
+// var uniqueCountry = []
+
+// for (let i = 0; i < country.length; i++) {
+//   var element = country[i];
+//   var index = uniqueCountry.indexOf(element)
+//   if(index === -1){
+//     uniqueCountry.push(element)
+//   }
+// }
+// console.log(uniqueCountry)
+
+//   let number = [1,2,3,4,5,3,2,3,4,5]
+
+// var uniqueNumber = []
+// for (let i = 0; i < number.length; i++) {
+//   const element = number[i];
+//   var index = uniqueNumber.indexOf(element)
+//  if (index === -1) {
+//    uniqueNumber.push(element)
+//  }
+// }
+// console.log(uniqueNumber)
+
+// let country = ['ban','can','yan','man','ban','man']
+
+// let uniqueCountry = []
+// for (let i = 0; i < country.length; i++) {
+//   const element = country[i];
+//   let index = uniqueCountry.indexOf(element)
+//   if (index === -1) {
+//     uniqueCountry.push(element)
+//   }
+// }
+// console.log(uniqueCountry)
+
+// let number = [4,5,6,7,8,9,8,7,6,5,6,7]
+
+// let uniqueNumber = []
+// for (let i = 0; i < number.length; i++) {
+//   const element = number[i];
+//   let index = uniqueNumber.indexOf(element)
+//   if (index === -1){
+//     uniqueNumber.push(element)
+//   }
+  
+// }
+// console.log(uniqueNumber)
+
+// let number = 8
+
+// let count = 0;
+// for(let i = 2; i <number; i++) {
+//   if(number % i == 0){
+//     count++;
+//     break;
+//   }
+  
+// }
+// if(count == 0){
+//   console.log("not prime")
+// }
+// else
+// // console.log("prime nmber")
+
+// function prime(number) {
+
+//   var count = 0;
+//   for (let i = 2; i < number; i++) {
+//     if (number % i == 0) {
+//       count++;
+//       break;
+//     }
+//   }
+//   if (count == 0) {
+//     console.log("prime number")
+//   }
+//   else
+//   console.log("not prime number")
+  
+//   }
+//   var findPrime = prime(78)
+
+let number = 3;
+
+var count = 0;
+
+for(let i = 0; i < number; i++) {
+  if(number % i == 0) {
+    count ++;
+    break;
+  }
+}
+if(count == 0) {
+  console.log("prime number")
+}
+else
+console.log("not")
