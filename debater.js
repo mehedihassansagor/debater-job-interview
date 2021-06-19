@@ -63,3 +63,29 @@
 // const reverseStrings = reverseStr("hello")
 // console.log(reverseStrings)
 
+// function numberOfWord(str) {
+//     const totalWord = 0;
+//     for (let i = 0; i < str.length; i++) {
+//         if(str.charAt(i) == ' '){
+//            return totalWord +1;
+//           }
+//         }
+      
+// }
+
+// const numberOfWords= numberOfWord("mehedi hassan sagor") 
+// console.log(numberOfWords)
+
+
+const a = "mehdi hassan sagor i am a student of cse"
+let count = 1;
+
+for (let i = 0; i < a.length; i++) {
+  // console.log(i)
+  if(a.charAt(i) == ' '){
+    count ++;
+  }
+}
+console.log(count)
+
+
